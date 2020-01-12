@@ -1,2 +1,0 @@
-﻿Framework.Tests.ShopTests.CheckAddProduct			
-Framework.Tests.ShopTests.FailTest	

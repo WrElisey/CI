@@ -1,0 +1,12 @@
+﻿Framework.Tests.ShopTests.CheckAddProduct			
+Framework.Tests.ShopTests.ChangeCatOnProduct		
+Framework.Tests.ShopTests.ChangeСurrency		
+Framework.Tests.ShopTests.CheckDemoProducts			
+Framework.Tests.ShopTests.CheckSupportPage		
+Framework.Tests.ShopTests.Search		
+Framework.Tests.ShopTests.checkChangeEdition	
+Framework.Tests.ShopTests.checkNewsletterSubscribe	
+Framework.Tests.ShopTests.checkProductPage		
+Framework.Tests.ShopTests.checkSupportMode	
+
+

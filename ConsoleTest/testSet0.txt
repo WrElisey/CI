@@ -1,0 +1,4 @@
+﻿Framework.Tests.ShopTests.CheckAddProduct			
+Framework.Tests.ShopTests.ChangeCatOnProduct		
+Framework.Tests.ShopTests.ChangeСurrency		
+Framework.Tests.ShopTests.CheckDemoProducts			

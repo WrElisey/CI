@@ -20,10 +20,11 @@ namespace GitHubAutomation
 
                 Settings.Env = cmdArgs["env"] ?? "dev";
                 Settings.Browser = cmdArgs["browser"] ?? "chrome";
+            string nameTestSet = cmdArgs["set"] ?? "testSet0";
 
 
             var testRunner = new AutoRun(Assembly.GetExecutingAssembly());
-            var tests = new string[] { $"--testlist:{Directory.GetCurrentDirectory()}\\..\\..\\..\\tests.txt" };
+            var tests = new string[] { $"--testlist:{Directory.GetCurrentDirectory()}\\..\\..\\..\\" + nameTestSet + ".txt" };
             int a = testRunner.Execute(tests);
             if(a == 1)
             {
