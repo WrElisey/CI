@@ -8,3 +8,6 @@ Framework.Tests.ShopTests.checkChangeEdition
 Framework.Tests.ShopTests.checkNewsletterSubscribe	
 Framework.Tests.ShopTests.checkProductPage		
 Framework.Tests.ShopTests.checkSupportMode	
+Framework.Tests.ShopTests.FailTest	
+
+

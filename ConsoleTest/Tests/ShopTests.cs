@@ -150,5 +150,17 @@ namespace Framework.Tests
                 Assert.IsTrue(supportPage.IsMenuItemActive());
             });
         }
+
+        //Fail test
+        [Test]
+        public void FailTest()
+        {
+            MakeScreenshotWhenFail(() =>
+            {
+                HomePage HomePage = new HomePage();
+                var supportPage = HomePage.GoToPage();
+                Assert.IsTrue(false);
+            });
+        }
     }
 }
