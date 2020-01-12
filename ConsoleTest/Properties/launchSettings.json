@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ConsoleTest": {
+      "commandName": "Project",
+      "commandLineArgs": "/env=qa /browser=chrome",
+      "environmentVariables": {
+        "env": "qa "
+      }
+    }
+  }
+}
