@@ -24,7 +24,11 @@ namespace GitHubAutomation
 
             var testRunner = new AutoRun(Assembly.GetExecutingAssembly());
             var tests = new string[] { $"--testlist:{Directory.GetCurrentDirectory()}\\..\\..\\..\\tests.txt" };
-            testRunner.Execute(tests);
+            int a = testRunner.Execute(tests);
+            if(a == 1)
+            {
+                throw new System.Exception("FAIL");
+            }
         }
     }
 }
